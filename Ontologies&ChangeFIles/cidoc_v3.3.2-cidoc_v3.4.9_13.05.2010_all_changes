@@ -1,0 +1,123 @@
+Basic changes [7]:
+
+http://cidoc#P65B.is_shown_by: ADD_SUPERPROPERTY( http://cidoc#P128B.is_carried_by )
+
+http://cidoc#P30B.custody_changed_by: DELETE_SUPERPROPERTY( http://cidoc#P12B.was_present_at )
+
+http://cidoc#P65F.shows_visual_item: ADD_SUPERPROPERTY( http://cidoc#P128F.carries )
+
+http://cidoc#P40B.was_observed_in: ADD_SUPERPROPERTY( http://cidoc#P141B.was_assigned_by )
+
+http://cidoc#P95F.has_formed: DELETE_SUPERPROPERTY( http://cidoc#P11F.had_participant )
+
+http://cidoc#P95B.was_formed_by: DELETE_SUPERPROPERTY( http://cidoc#P11B.participated_in )
+
+http://cidoc#P30F.transferred_custody_of: DELETE_SUPERPROPERTY( http://cidoc#P12F.occurred_in_the_presence_of )
+
+Composite changes [18]:
+
+http://cidoc#P13F.destroyed: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P141B.was_assigned_by: ADD_PROPERTY( {http://Subproperties, http://cidoc#P35B.identified_by, http://cidoc#P37B.was_assigned_by, http://cidoc#P38B.was_deassigned_by, http://cidoc#P42B.was_assigned_by} {http://Domain, http://cidoc#E1.CRM_Entity} {http://Range, http://cidoc#E13.Attribute_Assignment}  )
+
+http://cidoc#P128F.carries: CHANGE_DOMAIN( http://cidoc#E23.Information_Carrier, http://cidoc#E24.Physical_Man-Made_Stuff )
+
+http://cidoc#P30B.custody_transferred_through: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P30F.transferred_custody_of: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P140B.was_attributed_by: ADD_PROPERTY( {http://Subproperties, http://cidoc#P34B.was_assessed_by, http://cidoc#P36B.was_registered_by, http://cidoc#P39B.was_measured_by, http://cidoc#P41B.was_classified_by} {http://Domain, http://cidoc#E1.CRM_Entity} {http://Range, http://cidoc#E13.Attribute_Assignment}  )
+
+http://cidoc#P141F.assigned: ADD_PROPERTY( {http://Subproperties, http://cidoc#P35F.has_identified, http://cidoc#P37F.assigned, http://cidoc#P38F.deassigned, http://cidoc#P40F.observed_dimension, http://cidoc#P42F.assigned} {http://Domain, http://cidoc#E13.Attribute_Assignment} {http://Range, http://cidoc#E1.CRM_Entity}  )
+
+http://cidoc#P58B.defines_section: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+[http://cidoc#P19B.was_made_for, http://cidoc#P20B.was_purpose_of]: UNGROUP_PROPERTIES( http://cidoc#P15B.influenced )
+
+http://cidoc#P128B.is_carried_by: CHANGE_RANGE( http://cidoc#E23.Information_Carrier, http://cidoc#E24.Physical_Man-Made_Stuff )
+
+http://cidoc#P91B.is_unit_of: ADD_PROPERTY( {http://Domain, http://cidoc#E58.Measurement_Unit} {http://Range, http://cidoc#E54.Dimension}  )
+
+http://cidoc#E23.Information_Carrier: DELETE_CLASS( {http://Superclasses, http://cidoc#E22.Man-Made_Object} {http://Comments, ""@en}  )
+
+http://cidoc#P140F.assigned_attribute_to: ADD_PROPERTY( {http://Subproperties, http://cidoc#P34F.concerned, http://cidoc#P36F.registered, http://cidoc#P39F.measured, http://cidoc#P41F.classified} {http://Domain, http://cidoc#E13.Attribute_Assignment} {http://Range, http://cidoc#E1.CRM_Entity}  )
+
+http://cidoc#P58F.has_section_definition: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+[http://cidoc#P19F.was_intended_use_of, http://cidoc#P20F.had_specific_purpose]: UNGROUP_PROPERTIES( http://cidoc#P15F.was_influenced_by )
+
+[http://cidoc#P79F.beginning_is_qualified_by, http://cidoc#P80F.end_is_qualified_by]: GROUP_PROPERTIES( http://cidoc#P3F.has_note )
+
+http://cidoc#P13B.was_destroyed_by: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#E84.Information_Carrier: ADD_CLASS( {http://Superclasses, http://cidoc#E22.Man-Made_Object} {http://Comments, ""@en}  )
+
+Heuristic changes [34]:
+
+http://cidoc#P117F.during: RENAME_PROPERTY( http://cidoc#P117F.occurs_during)
+
+http://cidoc#P29F.custody_recieved_by: RENAME_PROPERTY( http://cidoc#P29F.custody_received_by)
+
+http://cidoc#P24B.changed_ownership_by: RENAME_PROPERTY( http://cidoc#P24B.changed_ownership_through)
+
+http://cidoc#P40B.was_observed: RENAME_PROPERTY( http://cidoc#P40B.was_observed_in)
+
+http://cidoc#P139F.also_represented_by: RENAME_PROPERTY( http://cidoc#P139F.has_alternative_form)
+
+http://cidoc#P128B.is_materialized_by: RENAME_PROPERTY( http://cidoc#P128B.is_carried_by)
+
+http://cidoc#P116B.started-by: RENAME_PROPERTY( http://cidoc#P116B.is_started_by)
+
+http://cidoc#P126B.was_employed_by: RENAME_PROPERTY( http://cidoc#P126B.was_employed_in)
+
+http://cidoc#P29B.recieved_custody: RENAME_PROPERTY( http://cidoc#P29B.received_custody_through)
+
+http://cidoc#P80F.ends_at_qualify: RENAME_PROPERTY( http://cidoc#P80F.end_is_qualified_by)
+
+http://cidoc#P120F.before: RENAME_PROPERTY( http://cidoc#P120F.occurs_before)
+
+http://cidoc#P125F.used_general_object: RENAME_PROPERTY( http://cidoc#P125F.used_object_of_type)
+
+http://cidoc#P120B.after: RENAME_PROPERTY( http://cidoc#P120B.occurs_after)
+
+http://cidoc#P119B.met-by_in_time: RENAME_PROPERTY( http://cidoc#P119B.is_met_in_time_by)
+
+http://cidoc#P123B.was_result_of: RENAME_PROPERTY( http://cidoc#P123B.resulted_from)
+
+http://cidoc#P128F.is_carried_of: RENAME_PROPERTY( http://cidoc#P128F.carries)
+
+http://cidoc#P119F.meets_in_time: RENAME_PROPERTY( http://cidoc#P119F.meets_in_time_with)
+
+http://cidoc#P110F.added_to: RENAME_PROPERTY( http://cidoc#P110F.augmented)
+
+http://cidoc#P114F.equal_in_time: RENAME_PROPERTY( http://cidoc#P114F.is_equal_in_time_to)
+
+http://cidoc#P28B.surrendered_custody: RENAME_PROPERTY( http://cidoc#P28B.surrendered_custody_through)
+
+http://cidoc#P125B.was_used_for: RENAME_PROPERTY( http://cidoc#P125B.was_type_of_object_used_in)
+
+http://cidoc#P23B.surrendered_title_of: RENAME_PROPERTY( http://cidoc#P23B.surrendered_title_through)
+
+http://cidoc#P118F.overlaps_in_time: RENAME_PROPERTY( http://cidoc#P118F.overlaps_in_time_with)
+
+http://cidoc#P109F.is_curated_by: RENAME_PROPERTY( http://cidoc#P109F.has_current_or_former_curator)
+
+http://cidoc#P22B.acquired_title_of: RENAME_PROPERTY( http://cidoc#P22B.acquired_title_through)
+
+http://cidoc#P91F.unit: RENAME_PROPERTY( http://cidoc#P91F.has_unit)
+
+http://cidoc#P109B.curates: RENAME_PROPERTY( http://cidoc#P109B.is_current_or_former_curator_of)
+
+http://cidoc#P79F.begins_at_qualify: RENAME_PROPERTY( http://cidoc#P79F.beginning_is_qualified_by)
+
+http://cidoc#P30B.custody_changed_by: RENAME_PROPERTY( http://cidoc#P30B.custody_transferred_through)
+
+http://cidoc#P115B.finished-by: RENAME_PROPERTY( http://cidoc#P115B.is_finished_by)
+
+http://cidoc#P138F.visualizes: RENAME_PROPERTY( http://cidoc#P138F.represents)
+
+http://cidoc#P138B.has_visualization: RENAME_PROPERTY( http://cidoc#P138B.has_representation)
+
+http://cidoc#P118B.overlapped-by_in_time: RENAME_PROPERTY( http://cidoc#P118B.is_overlapped_in_time_by)
+
+http://cidoc#P112F.removed_from: RENAME_PROPERTY( http://cidoc#P112F.diminished)

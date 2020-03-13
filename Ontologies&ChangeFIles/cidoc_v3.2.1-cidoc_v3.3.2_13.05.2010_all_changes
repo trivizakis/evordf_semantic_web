@@ -1,0 +1,1882 @@
+Basic changes [176]:
+
+http://cidoc#E51.Contact_Point: ADD_COMMENT( ""@en )
+
+http://cidoc#E31.Document: ADD_COMMENT( ""@en )
+
+http://cidoc#E64.End_of_Existence: ADD_COMMENT( ""@en )
+
+http://cidoc#E11.Modification: DELETE_COMMENT( "This entity comprises all activities which
+
+     intentionally alter physical objects, regardless of the degree
+
+     of intervention: creation of some item from raw material,
+
+     restorations, use of ancient objects in jewelry, etc..
+
+     Since many cases the distinction between modification and creation
+
+     is not clear, and the actions implied are basically the same,
+
+     modification is regarded as the more general .and less ambiguous.
+
+     concept. This implies that some items may be consumed or
+
+     destroyed in a modification process, and others emerge from it.
+
+     Typically, objects involved in the process, such as tools,
+
+     materials, etc., which are foreseen by the applied technique are
+
+     modeled as attributes of the Design or Procedure, for reasons of
+
+     efficient data representation.
+
+     Nevertheless, unusual and remarkable items used for a specific
+
+     instance of aprocess should be referred to here.
+
+
+
+     This entity is thought to be collective, e.g. the printing of a
+
+     thousand books should be one event. Conservation actions can be
+
+     modeled as a type of modification."@en )
+
+http://cidoc#E34.Inscription: ADD_COMMENT( ""@en )
+
+http://cidoc#P39B.was_measured: DELETE_COMMENT( "This link has to be specialized further in
+
+     subclasses."@en )
+
+http://cidoc#E27.Site: ADD_COMMENT( ""@en )
+
+http://cidoc#E12.Production_Event: ADD_SUPERCLASS_TO_CLASS( http://cidoc#E11.Modification_Event )
+
+http://cidoc#P68B.is_usually_employed_by: DELETE_COMMENT( "This link is used to avoid repetition of materials for
+
+     each object in case it is already mandatory for the
+
+     technique."@en )
+
+http://cidoc#P20F.had_specific_purpose: DELETE_COMMENT( "E.g. making of a gift for the wedding of king
+
+     George"@en )
+
+http://cidoc#E53.Place: ADD_COMMENT( ""@en )
+
+http://cidoc#E57.Material: ADD_COMMENT( ""@en )
+
+http://cidoc#E12.Production: DELETE_COMMENT( "This entity specializes the notion of modification
+
+     into production, i.e. activities which are designed to and
+
+     succeed in creating one or a series of new items, new in the
+
+     sense that there is no obvious similarity to the consumed items
+
+     and material.
+
+     Examples: painting a watercolour, printing an etching, producing
+
+     a series of household forks, the recasting of the mermaid in
+
+     Copenhagen."@en )
+
+http://cidoc#E27.Site: DELETE_COMMENT( "A site is a recognisable place that can be represented
+
+     by an Iconographic object, such as a photograph, painting or map.
+
+     A site is composed of relatively immobile material items and
+
+     features in a particular configuration at a particular
+
+     location."@en )
+
+http://cidoc#E48.Place_Name: ADD_COMMENT( ""@en )
+
+http://cidoc#E56.Language: DELETE_COMMENT( "This entity comprises the names identifying natural
+
+     languages.Internationally used codes are recommended .ISO.....
+
+     This type does not correspond to another explicit entity in the
+
+     Model.
+
+     Example:   ISO language codes."@en )
+
+http://cidoc#E52.Time-Span: DELETE_COMMENT( "A determination of a range of dates or duration without
+
+     any further connotations, to be used to confine periods, events,
+
+     and any other phenomena valid for a certain time. A time
+
+     appellation is a verbal form which refers to a time-span.
+
+     The time-span itself is a temporal extent in the sense of Galilean
+
+     physics. Different time-appellations may express the same
+
+     time-span.
+
+
+
+     Examples : from 12-17-1993 to 12-8-1996,
+
+     14h30 - 16h22 4th July 1945, 9.30 am 1.1.1999 to 2.OO pm 1.1.1999,
+
+     Duration of the Ming Dynasty."@en )
+
+http://cidoc#E41.Appellation: DELETE_COMMENT( "This entity comprises all names in the proper sense.
+
+     Codes or words, meaningless or meaningful, in the script of
+
+     some group or encoding of an electronic system, used solely to
+
+     identify a specific instance of some category within a certain
+
+     context. These words do not identify the object by their meaning
+
+     but by convention, tradition or agreement."@en )
+
+http://cidoc#E4.Period: DELETE_COMMENT( "A period is characterized by a coherent set of
+
+     phenomena and or manifestations .explicitly intended or not.,
+
+     which are assumed to have taken place over a certain space
+
+     and time.
+
+
+
+     Examples: Glacial period, bronze period, Ming Dynasty,
+
+     Impressionism, Neolithic Period, Mc Carthy Era, The Sixties,
+
+     Niniveh, 'Sturm und Drang'.
+
+
+
+     There are different opinions as to whether a ?style? is
+
+     defined by physical features or by the historical
+
+     context."@en )
+
+http://cidoc#E13.Attribute_Assignment: ADD_COMMENT( ""@en )
+
+http://cidoc#E49.Time_Appellation: DELETE_COMMENT( "Time appellation groups all forms of names or codes,
+
+     such as historical periods, and dates, which are used to refer
+
+     to specific time frames. Time appellations may vary in their
+
+     degree of precision, and they may be relative to other time
+
+     frames, 'prehistoric' for example. These aspects of time
+
+     appellations are dealt with in the more general 'appellations'
+
+     class.
+
+
+
+     In contrast to cultural periods, proper names are seldom given
+
+     to particular Time-spans, hence it was decided to exclude a
+
+     specific entity ?Time-spans name?. Time-spans are often referred
+
+     to in association with cultural periods, and events
+
+     e.g. ?the duration of Ming Dynasty?. cf. E52 Time span.
+
+
+
+     Examples: Meiji, 1st half of the XX century, Quaternary,
+
+     1215 Hegira. Last century."@en )
+
+http://cidoc#P4F.has_time-span: DELETE_COMMENT( "Outer bounds for the real time span things
+
+     happened in."@en )
+
+http://cidoc#P69F.associated_with: DELETE_COMMENT( "This link allows to model sequences and complex
+
+     composite procedures. To be further specialized down."@en )
+
+http://cidoc#E42.Object_Identifier: ADD_COMMENT( ""@en )
+
+http://cidoc#E65.Creation_Event: ADD_COMMENT( ""@en )
+
+http://cidoc#E24.Physical_Man-Made_Stuff: ADD_COMMENT( ""@en )
+
+http://cidoc#E29.Design_or_Procedure: ADD_COMMENT( ""@en )
+
+http://cidoc#E22.Man-Made_Object: ADD_COMMENT( ""@en )
+
+http://cidoc#E54.Dimension: DELETE_COMMENT( "This entity is an abstract class for properties that
+
+     are measured by some calibrated means and result in numerical
+
+     values.
+
+
+
+     Examples: currency: =A326.00, length: 4 cm, diameter 26 mm,
+
+     weight 150 lbs, density : 0.85 gm/cc, luminescence :
+
+     56 ISO lumens, tin content: 0.46 %, taille au garot :
+
+     5 hands, C14 date : 2460 years, etc."@en )
+
+http://cidoc#P62F.depicts_object: DELETE_COMMENT( "This link serves particularly to trace
+
+       cross-references to objects in collections, especially in the
+
+       same museum.  Else, a simple textual note would be enough.
+
+       The qualifier mode of depiction captures view, angle, part,
+
+       salience, quality etc.
+
+       If the iconography depicts an existing real object,
+
+       e.g. real person, building, place, or another museum object
+
+       .like it usually happens with photos., the link depicts object
+
+       should be used, pointing to an instance of the Physical Stuff
+
+       class or of any of its subclasses.
+
+       Mode of depiction examples: sketch, caricature,
+
+       animation."@en )
+
+http://cidoc#E25.Man-Made_Feature: ADD_COMMENT( ""@en )
+
+http://cidoc#E22.Man-Made_Object: DELETE_COMMENT( "An discrete real item of material nature, which
+
+     is an artifact of technological actions.
+
+
+
+     Example : My car, chassis no. AMT-9566-XXX9384,
+
+                  The Portland Vase,
+
+        The Colloseum, The Parthenon."@en )
+
+http://cidoc#E16.Measurement_Event: ADD_COMMENT( ""@en )
+
+http://cidoc#E38.Image: DELETE_COMMENT( "This entity refers to distributions of form and colour
+
+     which may be found on surfaces such as photos, paintings, prints,
+
+     and sculptures etc. or directly on electronic media. The degree
+
+     to which variations in the distribution of form and colour are
+
+     tolerated depends on a given purpose.
+
+    
+
+     The "depiction" links between objects and depicted subjects
+
+     may be regarded as short cuts of an intermediate image node
+
+     capturing the optical features of the depiction. Cf E25.
+
+
+
+     Examples: The front side of all 20 Frs notes."@en )
+
+http://cidoc#E42.Object_Identifier: DELETE_COMMENT( "Unique codes assigned to objects in order to identify
+
+     them uniquely within the context of one or more organizations.
+
+     Typically alphanumeric sequences.
+
+    
+
+     examples: MM.GE.195, 13.45.1976, etc."@en )
+
+http://cidoc#E12.Production_Event: ADD_COMMENT( ""@en )
+
+http://cidoc#E19.Physical_Object: ADD_COMMENT( ""@en )
+
+http://cidoc#E23.Iconographic_Object: DELETE_COMMENT( "This entity comprises objects which are designed
+
+     primarily or in addition to another functionality to represent
+
+     or depict something in an optical manner, be it concrete or
+
+     abstract. Examples: Paintings, Sculpture, a vase in form of
+
+     a head, a decoration on a medieval gun.
+
+
+
+     This entity has a certain pragmatic value in the fine arts
+
+     since it conveniently groups together objects such as paintings,
+
+     drawings, watercolours and other similar objects. From a
+
+     philosophical point of view, representation is an 'intentional'
+
+     act. Natural objects may resemble other objects by chance but
+
+     they can represent only as a result of intervention by some fairly
+
+     sophisticated semiotic arrangements."@en )
+
+http://cidoc#P40F.observed_dimension: DELETE_COMMENT( "This link has to be specialized further in subclasses.
+
+     Examples: hight, length, diameter of base,
+
+     major hight etc."@en )
+
+http://cidoc#E18.Physical_Stuff: DELETE_COMMENT( "Physical Stuff is an abstract notion that groups
+
+     all physical objects, man made and natural, as well as physical
+
+     features of objects, such as holes. We use the term 'feature'
+
+     to refer to anything of a material nature, such as scratches,
+
+     holes, rivers, and stains, which it would be strange to refer
+
+     to as ?objects?."@en )
+
+http://cidoc#P54F.has_current_permanent_location: DELETE_SUPERPROPERTY( http://cidoc#P53F.has_former_or_current_location )
+
+http://cidoc#E50.Date: DELETE_COMMENT( "Dates are a specific form of time appellation.
+
+     Dates may vary in their degree of precision.
+
+     E.g. 1900, 4-4-1959, 19640604."@en )
+
+http://cidoc#E40.Legal_Body: DELETE_COMMENT( "A legal body is any institution or group of people
+
+     which can act collectively as an agent i.e. it can perform
+
+     actions, own property, create or destroy and be held responsible
+
+     for its actions. The term 'personne morale' is often used in
+
+     French.
+
+    
+
+     Examples: MDA .Europe. Ltd., GreenPeace."@en )
+
+http://cidoc#E11.Modification_Event: ADD_COMMENT( ""@en )
+
+http://cidoc#E75.Conceptual_Object_Appellation: ADD_COMMENT( ""@en )
+
+http://cidoc#E30.Right: DELETE_COMMENT( "Rights are used in the sense of legal privileges such
+
+     as the right of property, reproduction rights, etc."@en )
+
+http://cidoc#P39F.measured: DELETE_COMMENT( "This link has to be specialized further in
+
+     subclasses."@en )
+
+http://cidoc#P54B.is_current_permanent_location_of: DELETE_SUPERPROPERTY( http://cidoc#P53B.is_former_or_current_location_of )
+
+http://cidoc#E9.Move: ADD_COMMENT( ""@en )
+
+http://cidoc#E20.Biological_Object: DELETE_COMMENT( "An individual, real item of material nature,
+
+     which lives, has lived, or is a natural products of living
+
+     organisms. Artificial objects which incorporate biological
+
+     elements, such as Victorian butterfly frames, can be classified
+
+     as both natural and man-made objects.
+
+
+
+     Examples : Me, Tut-Ankh-Amun, Boukephalas."@en )
+
+http://cidoc#E52.Time-Span: ADD_COMMENT( ""@en )
+
+http://cidoc#E70.Stuff: ADD_COMMENT( ""@en )
+
+http://cidoc#E48.Place_Name: DELETE_COMMENT( "A place name is a particular and common form of
+
+     place appellation. 'Greece', 'Athens', 'Geneva', are all
+
+     place names. Place names may shift their meaning over time.
+
+     Cf Place appellations."@en )
+
+http://cidoc#E49.Time_Appellation: ADD_COMMENT( ""@en )
+
+http://cidoc#E73.Information_Object: ADD_COMMENT( ""@en )
+
+http://cidoc#E74.Group: ADD_COMMENT( ""@en )
+
+http://cidoc#E57.Material: DELETE_COMMENT( "This entity comprises the names used to identify
+
+     materials. Internationally used codes and terminology are
+
+     recommended. This type does not correspond to any other explicit
+
+     entity in the Model, because materials do not have well-defined
+
+     instances, especially after they are used. Discrete pieces of
+
+     raw-materials kept in museums, such as bricks, sheets of fabric,
+
+     pieces of metal, should be modelled separately just as
+
+     other objects. Discrete used or processed pieces, such as the
+
+     stones from Nefer Titi's temple, should be modelled
+
+     as parts."@en )
+
+http://cidoc#E24.Physical_Man-Made_Stuff: DELETE_COMMENT( "Man-made entity is a general class that groups man
+
+     made objects and features. The distinction between 'objects'
+
+     and 'features' is useful since it avoids referring to things
+
+     like holes and texture as objects. Features and objects share
+
+     many common characteristics however, hence the need for a
+
+     general class of man-made things."@en )
+
+http://cidoc#E47.Spatial_Coordinates: ADD_COMMENT( ""@en )
+
+http://cidoc#P7F.took_place_at: DELETE_COMMENT( "Denotes eventually a wider region than the real spot
+
+     things happened on.May be took place at would be a better name
+
+     for this link."@en )
+
+http://cidoc#P4B.is_time-span_of: DELETE_COMMENT( "Outer bounds for the real time span things
+
+     happened in."@en )
+
+http://cidoc#E39.Actor: ADD_COMMENT( ""@en )
+
+http://cidoc#E28.Conceptual_Object: ADD_COMMENT( ""@en )
+
+http://cidoc#E63.Beginning_of_Existence: DELETE_COMMENT( "Entity for temporal reasoning about things beginning to exist -
+
+     Intellectual products, physical items, groups of people, living beings , periods-
+
+     A hook for termini postquem and antequem. It may turn out useful to define more 
+
+     specializations of this entity for Natural History."@en )
+
+http://cidoc#E18.Physical_Stuff: DELETE_SUPERCLASS_FROM_CLASS( http://cidoc#E70.Stuff )
+
+http://cidoc#E56.Language: ADD_COMMENT( ""@en )
+
+http://cidoc#P70F.documents: DELETE_COMMENT( "The specific interest is to capture cross-references
+
+     to objects in collections.
+
+     A document might also refer to an event, a type or a
+
+     site."@en )
+
+http://cidoc#E41.Appellation: ADD_COMMENT( ""@en )
+
+http://cidoc#E25.Man-Made_Feature: DELETE_COMMENT( "Man made features are those physical features
+
+     which result from human intervention. Cf.E27 Physical
+
+     Feature."@en )
+
+http://cidoc#E74.Group: DELETE_COMMENT( "A group is any gathering of people that acts collectively or in a  
+
+     similar way due to any kind of social bounds or contact. 
+
+     Nationality can be handled as a link to a group of appropriate type. 
+
+     Note the distinction between citizenship and ethnic group and other subtleties 
+ 
+     not easily expressible by nationality adjectives. 
+
+     Examples: A group of people painting together at some happening,
+
+     A tribe of indigenous people, an artist workshop, a museum, "Those at the Bastille", 
+
+     a nation, a government, a company."@en )
+
+http://cidoc#E31.Document: DELETE_COMMENT( "This entity comprises items which make propositions
+
+     about reality, whether intentionally or by chance. The means
+
+     may be text, graphics, images, sound, video. Examples: Books
+
+     on history, maps, photos."@en )
+
+http://cidoc#E53.Place: DELETE_COMMENT( "This entity describes extents in space, in particular
+
+     on the surface of the earth, in the pure sense of physics:
+
+     independent from temporal phenomena and matter. Places are usually
+
+     determined by reference to the position of immobile objects
+
+     such as buildings, cities, mountains, and rivers. On a large
+
+     time-scale however, these things are either not persistent or may
+
+     actually move, with respect to each other. This motivates the
+
+     search for a global or absolute system of reference.
+
+
+
+     However, relative references are more relevant in the context of
+
+     cultural documentation and records of relative places tend to be
+
+     more precise. In particular, we are often interested in position
+
+     in relation to large objects, such as ships, which move. Any
+
+     object can serve as a reference for place determination;
+
+     therefore the model foresees the notion of a "section" of a
+
+     physical object as a place determination of equal validity.
+
+
+
+     Matching between multiple reference systems is in principle
+
+     possible for a given moment in time, but depends on the precision
+
+     and completeness of the information available. However, the
+
+     resolution of places to absolute coordinates is not, in =
+
+general,
+
+     necessary in cultural documentation systems, and absolute
+
+     referencing may be dependent on the present state of
+
+     global knowledge.
+
+
+
+     Example: the place at which Nelson died is known with reference
+
+     to a large mobile object - H.M.S Victory. A resolution of this
+
+     place in terms of absolute coordinates requires knowledge about
+
+     the position of the vessel and the precise time of his death,
+
+     either of which may be revised. Hence, documenting only an
+
+     absolute reference effectively removes the possibility of
+
+     recalculating.
+
+     It is more relevant to preserve the reasoning behind an assumption
+
+     than the result.
+
+
+
+     Hence a place can be determined by combining, one or more times,
+
+     a frame of reference and a location with respect to this frame.
+
+     These combinations are modelled by Place Appellation.
+
+     .Instance of place are themselves nameless..
+
+
+
+     Example: The place referred to by the Fish collected at three
+
+     miles north of the confluence of the Arve and the Rhone,
+
+     or N W. .GPS., Here."@en )
+
+http://cidoc#E39.Actor: DELETE_COMMENT( "People, either individuals or a groups of persons,
+
+     or organisations, under the aspect of their role in activities.
+
+     E.g. The ISO central committe, the Benaki Museum in Athens,
+
+     Greece, the Bauhaus in Weimar, Germany, Monet, Me.
+
+    
+
+     An informal group, such as a school of artists, may acquire an
+
+     identity and perform actions without ever becoming an officially
+
+     established legal entity. Such cases should be documented as
+
+     instances of Actors, using an appropriate
+
+     sub type."@en )
+
+http://cidoc#E45.Address: DELETE_COMMENT( "An address is generally a postal address used for
+
+     mailing. An address can be considered both as the name of a place
+
+     and as a contact point for an actor. This dual aspect is reflected
+
+     in the multiple inheritance.
+
+    
+
+     Example :       1-29-3 Otsuka, Bunkyo-ku,
+
+                     Tokyo, 121, Japan."@en )
+
+http://cidoc#E68.Dissolution: DELETE_COMMENT( "The formal or informal end of a group of people. If it was
+
+     a deliberate act, the instance should also be instantiated as an activity."@en )
+
+http://cidoc#E69.Death: ADD_COMMENT( ""@en )
+
+http://cidoc#E1.CRM_Entity: ADD_COMMENT( ""@en )
+
+http://cidoc#E77.Persistent_Item: ADD_COMMENT( ""@en )
+
+http://cidoc#P9B.forms_part_of: DELETE_COMMENT( "Aggregation of subperiods, the total of which
+
+     completely cover the places and times there things really
+
+     happened, used if time spans are different for different
+
+     places .better name "composed of"?."@en )
+
+http://cidoc#E77.Existence: DELETE_COMMENT( "This is an abstract entity, which comprises the kinds of things that have the potenctial to exist
+
+     for a relevant time-span preserving their identity. It comprises physical items and intellectual
+
+     products, groups of people, living beings, etc. Types are included in yheir nature as intellectual
+
+     product, in particular in natural history, where types are based on the findings of a prototypical 
+
+     specimen. Appellations are included in their nature as creations of the people using them.
+
+     Examples: ISBN 3-00-007556-9, me, Arethusa ophioglossoides, Shakespeare's Hamlet,
+
+     Aphrodite of Milos."@en )
+
+http://cidoc#E15.Identifier_Assignment: DELETE_COMMENT( "This entity describes the action of assigning an
+
+     identifier, such as a museum number, to an object. The interest
+
+     in this action arises when objects are exchanged, and multiple
+
+     identifiers are used, or the identification system of an
+
+     organization is changed. In order to cover these cases, it is
+
+     important to document by whom, when and for what purpose an
+
+     identifier is assigned to a museum object."@en )
+
+http://cidoc#E18.Physical_Stuff: ADD_COMMENT( ""@en )
+
+http://cidoc#E55.Type: ADD_SUPERCLASS_TO_CLASS( http://cidoc#E28.Conceptual_Object )
+
+http://cidoc#E35.Title: DELETE_COMMENT( "This entity comprises the short pieces of texts that
+
+     are used, by the creator or tradition, to characterize or identify
+
+     a work, often alluding to its subject. The work may be linguistic,
+
+     musical, iconographic or other.
+
+     Examples: Giaconda, La Joconde, Mona Lisa, Die Dreigroschenoper,
+
+     La Pie, La Marseillaise."@en )
+
+http://cidoc#E16.Measurement: DELETE_COMMENT( "This entity describes actions of measuring physical
+
+     properties by counting or use of some tool, whether by simple
+
+     yardstick or complex radiation detection device. The interest
+
+     is in the method and care applied, in order to decide afterwards
+
+     on the reliability of the result. For properties which may change
+
+     value over time, such as length, due to shrinkage, the date is
+
+     of direct relevance as well. Details of methods and devices are
+
+     best handled as free text, whereas basic methods such as "C14"
+
+     should be encoded in the type field."@en )
+
+http://cidoc#P62B.is_depicted_by: DELETE_COMMENT( "This link serves particularly to trace
+
+       cross-references to objects in collections, especially in the
+
+       same museum.  Else, a simple textual note would be enough.
+
+       The qualifier mode of depiction captures view, angle, part,
+
+       salience, quality etc.
+
+       If the iconography depicts an existing real object,
+
+       e.g. real person, building, place, or another museum object
+
+       .like it usually happens with photos., the link depicts object
+
+       should be used, pointing to an instance of the Physical Stuff
+
+       class or of any of its subclasses.
+
+       Mode of depiction examples: sketch, caricature,
+
+       animation."@en )
+
+http://cidoc#P71B.is_listed_in: ADD_SUPERPROPERTY( http://cidoc#P67B.is_referred_to_by )
+
+http://cidoc#E37.Mark: DELETE_COMMENT( "Martin Doerr: Symbols, signs, signatures or short texts
+
+     applied to physical objects by arbitrary techniques in order to
+
+     indicate the creator, owner, dedications, purpose, etc.
+
+     Examples: Minoan double axe mark, =A9, STOP! .
+
+    
+
+     This entity specifically does not included marks such as
+
+     scratches, which have no semantic significance. These case be
+
+     documented as physical features."@en )
+
+http://cidoc#E69.Death: DELETE_COMMENT( "The death of a human being. If the person was killed,
+
+     the instance should also be instantiated as an activity."@en )
+
+http://cidoc#E26.Physical_Feature: ADD_COMMENT( ""@en )
+
+http://cidoc#E30.Right: ADD_COMMENT( ""@en )
+
+http://cidoc#E47.Spatial_Coordinates: DELETE_COMMENT( "Coordinates are a specific form of place appellation,
+
+     that is, a means of referring to a particular place.
+
+     .cf E53 place.
+
+     Coordinates are not restricted to longitude, latitude and altitude.
+
+
+
+     Any regular system of reference that maps onto a physical object
+
+     can be considered as coordinates.
+
+     Examples: 6=B05?29N 45=B012?13W,
+
+                        Black queen?s bishop 4."@en )
+
+http://cidoc#E14.Condition_Assessment: ADD_COMMENT( ""@en )
+
+http://cidoc#E63.Beginning_of_Existence: ADD_COMMENT( ""@en )
+
+http://cidoc#E46.Section_Definition: DELETE_COMMENT( "section definition groups together names used to refer
+
+     to parts of objects. The 'prow' of a boat, the 'frame' of the
+
+     picture, the 'basement' of the building are all section
+
+     definitions. The entity highlights the fact that parts of objects
+
+     can be treated as locations. .cf. E53 Place. In answer to the
+
+     question 'where is the signature?' one might reply 'on the lower
+
+     left corner'.
+
+    
+
+     Example: The entrance lobby to MDA House, Matthew?s bedroom,
+
+     the poop deck of H.M.S. Victory, the Venus de Milo?s left buttock,
+
+     left inner side of the box."@en )
+
+http://cidoc#E8.Acquisition: DELETE_COMMENT( "This entity describes the transfer of the legal
+
+     ownership from one legal person to another. Either one of the
+
+     actors may be omitted, unknown or not existing. The entity
+
+     describes the beginning, the end or the transfer of an ownership,
+
+     acquisition from unknown source or loss of title, depending
+
+     on the circumstances. It takes a neutral position with respect to
+
+     the actors involved. The museum notion of "accession" seems to
+
+     differ between institutions.
+
+     We preferred therefore to model the notions of legal ownership
+
+     and physical custody instead, which are well defined in
+
+     international business. Institutions can choose to model their
+
+     specific notions as combinations of these.
+
+
+
+     Annexation, donation, purchase, field collection - where legal
+
+     title is appropriated by the collector, are types of acquisition.
+
+     Examples: a fish collected in international waters, a painting
+
+     bequeathed to a museum."@en )
+
+http://cidoc#E28.Conceptual_Object: DELETE_COMMENT( "This entity is the attempt to group the non-material
+
+     products of our minds, and specifically to allow for reasoning
+
+     about their identity, circumstances of creation and historical
+
+     implications. Characteristically, these things are created,
+
+     invented or thought, and somehow documented or communicated
+
+     between persons.
+
+     Conceptual objects need not have a particular carrier, but may be
+
+     found on several different carriers, such as paper, electronic
+
+     signals, marks, audio media, paintings, photos, human memory, etc.
+
+     They cannot be destroyed as long as they exist on at least one
+
+     carrier or in memory. Examples include texts, maps, photos, music,
+
+     sounds, fairy tales, signs, patterns, symbols, plans, rights,
+
+     and rules. A greater distinction could be made between products
+
+     having a clear identity, such as a specific text, or photographs,
+
+     and the ideas and concepts shared and traded by
+
+     groups of people."@en )
+
+http://cidoc#E20.Biological_Object: ADD_COMMENT( ""@en )
+
+http://cidoc#E45.Address: ADD_COMMENT( ""@en )
+
+http://cidoc#P21B.was_purpose_of: DELETE_COMMENT( "E.g. making of a dress for wedding."@en )
+
+http://cidoc#E66.Formation: DELETE_COMMENT( "The formation or foundation of a formal or informal
+
+     group of people."@en )
+
+http://cidoc#E4.Period: ADD_COMMENT( ""@en )
+
+http://cidoc#P16F.used_specific_object: ADD_SUPERPROPERTY( http://cidoc#P15F.was_influenced_by, http://cidoc#P12F.occurred_in_the_presence_of )
+
+http://cidoc#E23.Iconographic_Object: DELETE_SUPERCLASS_FROM_CLASS( http://cidoc#E73.Information_Object )
+
+http://cidoc#E68.Dissolution: ADD_COMMENT( ""@en )
+
+http://cidoc#E3.Condition_State: ADD_COMMENT( ""@en )
+
+http://cidoc#E72.Legal_Object: ADD_COMMENT( ""@en )
+
+http://cidoc#E9.Move: DELETE_COMMENT( "This entity captures the change of physical location
+
+     of a museum object for exhibitions, conservation, reorganization,
+
+     loans, study etc.
+
+
+
+     e.g. Taking objects from storage and putting them on display is
+
+     a type of move."@en )
+
+http://cidoc#E72.Legal_Object: DELETE_COMMENT( "An identifiable item which can be owned or people can have a right
+
+     on. It is not restricted to Stuff. May also be Legal Bodies should be
+     
+     included."@en )
+
+http://cidoc#E55.Type: ADD_COMMENT( ""@en )
+
+http://cidoc#E55.Type: DELETE_COMMENT( "This entity captures the names of all entities in the
+
+     model and any refinements of these entities which do not require
+
+     further analysis of their formal properties, but which represent
+
+     typological distinctions important to a given user group. The
+
+     semantic interpretation of these subtypes is based on the
+
+     agreement of specific groups. Instances of the Type entity have
+
+     to be formally organized in thesauri, with scope notes,
+
+     illustrations, etc. to clarify their meaning.
+
+     In general, it is expected that different domains and cultural
+
+     groups develop different thesauri in parallel. Consistent
+
+     reasoning on the expansion of sub terms used in a thesaurus is
+
+     possible insofar as it conforms to both the entities and the
+
+     hierarchies of this Model.
+
+
+
+     Examples: Weight, length, depth are types of measurement.
+
+     Portrait, sketch, animation could be types of depiction. Oral,
+
+     written could be types of language. Excellent, good, poor could
+
+     be types of condition state."@en )
+
+http://cidoc#P71F.lists: ADD_SUPERPROPERTY( http://cidoc#P67F.refers_to )
+
+http://cidoc#E66.Formation_Event: ADD_COMMENT( ""@en )
+
+http://cidoc#E33.Linguistic_Object: DELETE_COMMENT( "This entity comprises texts of all kind,
+
+     be they written or recorded speech,
+
+     in any physical language."@en )
+
+http://cidoc#P16F.used_object: DELETE_SUPERPROPERTY( http://cidoc#P12F.ocurred_in_the_presence_of )
+
+http://cidoc#E2.Temporal_Entity: ADD_COMMENT( ""@en )
+
+http://cidoc#E6.Destruction: ADD_COMMENT( ""@en )
+
+http://cidoc#E38.Image: ADD_COMMENT( ""@en )
+
+http://cidoc#E29.Design_or_Procedure: DELETE_COMMENT( "An established plan for execution of a series or group
+
+     of technological actions, which result in a physical change of
+
+     state in certain pieces of material and/or any physical object.
+
+
+
+     Examples: All elements of the AAT "processes and techniques"
+
+     facets., a plan for a building, conservation procedures,
+
+     complex editing techniques, flint napping, etc.."@en )
+
+http://cidoc#E44.Place_Appellation: ADD_COMMENT( ""@en )
+
+http://cidoc#E37.Mark: ADD_COMMENT( ""@en )
+
+http://cidoc#E35.Title: ADD_COMMENT( ""@en )
+
+http://cidoc#E15.Identifier_Assignment: ADD_COMMENT( ""@en )
+
+http://cidoc#E73.Information_Object: DELETE_COMMENT( "An identifiable inmaterial item which constitutes a unit for 
+
+     documentation and has an objectively recognizable structure.
+
+     Examples are data sets, images, texts, procedure prescriptions. It does
+
+     not include types, ideas, etc."@en )
+
+http://cidoc#E23.Information_Carrier: ADD_COMMENT( ""@en )
+
+http://cidoc#E19.Physical_Object: DELETE_COMMENT( "An discrete, real item of material nature which
+
+     constitutes a unit for documentation. The decision as to what
+
+     constitutes a complete item, rather than parts or components,
+
+     may be purely administrative.
+
+
+
+     Examples : John Smith, Aphrodite of Milos, the Palace of Knossos,
+
+     the Cullinan diamond, Apollo 13 a the time
+
+     of launch."@en )
+
+http://cidoc#P68F.usually_employs: DELETE_COMMENT( "This link is used to avoid repetition of materials for
+
+     each object in case it is already mandatory for the
+
+     technique."@en )
+
+http://cidoc#E7.Activity: DELETE_COMMENT( "An action or a series of actions, carried out by
+
+     actors .people, groups or organisations. which follow a certain
+
+     explicit or implicit intention and result as a collective effect
+
+     in some change of state in the cultural, social, physical systems
+
+     we are interested in. This notion includes both complex
+
+     and long lasting actions such as the building of a settlement, or
+
+     a war, as well as simple, short-lived actions such as the opening
+
+     of a door. It does not include the notion of activity in the
+
+     sense of professions and other non-targeted
+
+     notions. These are seen rather as belonging to a part
+
+     in the hierarchy above Event."@en )
+
+http://cidoc#E71.Man-Made_Stuff: DELETE_COMMENT( "An identifiable,discrete, persistent, item deliberately produced,
+
+     invented or created by humans which constitutes a unit for 
+   
+     documentation, be an intellectual product, idea or a physical thing."@en )
+
+http://cidoc#E6.Destruction: DELETE_COMMENT( "An event which causes one or more objects to lose
+
+     their identity as the current subjects of documentation.
+
+     Some destructions are intentional, others are independent of
+
+     human activity. The decision as to the point at which an object
+
+     is destroyed rather than modified may be arbitrary in some cases.
+
+     The same event may, in some cases, be documented both as a
+
+     destruction of one or more objects and as the creation of others
+
+     using parts or material from the original, or, alternatively,
+
+     as a modification.  In the former case, the object
+
+     record would close, in the latter, it would continue.
+
+
+
+     For living beings, death is usually more clearly defined.
+
+
+
+     Examples: The Lisbon Earthquake, the destruction of Nineveh,
+
+     I broke a champagne glass yesterday, the shooting of the last
+
+     wolf in Germany in 1729."@en )
+
+http://cidoc#E17.Type_Assignment: DELETE_COMMENT( "This entity describes the act of scientifically
+
+     classifying some entity, an object, a work, an action or whatever.
+
+     The value of classification depends critically on general and
+
+     personal knowledge and the scientific system used. Therefore the
+
+     interest lies in the author and date."@en )
+
+http://cidoc#P70B.is_documented_in: DELETE_COMMENT( "The specific interest is to capture cross-references
+
+     to objects in collections.
+
+     A document might also refer to an event, a type or a
+
+     site."@en )
+
+http://cidoc#E54.Dimension: ADD_COMMENT( ""@en )
+
+http://cidoc#E51.Contact_Point: DELETE_COMMENT( "This entity comprises identifiers used to communicate
+
+     with Actors. Examples: E-mail addresses, telephone numbers, post
+
+     office boxes, Fax numbers, etc. NB postal addresses can be
+
+     considered both as place appellations and
+
+     Contact Points."@en )
+
+http://cidoc#E14.Condition_Assessment: DELETE_COMMENT( "This entity describes the action of assessing the
+
+     condition of preservation of an object over a particular period,
+
+     either by inspection, measurement or historical
+
+     studies."@en )
+
+http://cidoc#E65.Conceptual_Creation: DELETE_COMMENT( "The creation of an inmaterial product - Text,
+
+     music, image, movie, Law, etc."@en )
+
+http://cidoc#E1.CRM_Entity: DELETE_COMMENT( "This is the abstract concept of the entities of our
+
+     universe of discourse. It carries the rule that all entities can
+
+     be classified by a type, which further refines the specific
+
+     subclass an instance belongs to, and a free text field for
+
+     anything we want to express and that is not captured by formal
+
+     links."@en )
+
+http://cidoc#E75.Conceptual_Object_Appellation: DELETE_COMMENT( "Specific Identifiers of an intellectual product or standarized
+
+     pattern.
+
+     Examples: ISBN 3-7913-1418-1, ISO2788-1986(E)"@en )
+
+http://cidoc#E64.End_of_Existence: DELETE_COMMENT( "Entity for temporal reasoning about things  stopping to exist-
+
+     physical items, groups of people, living beings-
+
+     A hook for termini postquem and antequem."@en )
+
+http://cidoc#E32.Authority_Document: DELETE_COMMENT( "This entity describes encyclopedia, thesauri,
+
+     authority lists: all documents which define terminology or
+
+     conceptual systems for consistent use.
+
+     e.g. Webster's, Getty Art and Architecture Thesaurus, MDA
+
+     Archaeological Objects Thesaurus,
+
+     This Document, etc."@en )
+
+http://cidoc#E7.Activity: ADD_COMMENT( ""@en )
+
+http://cidoc#E71.Man-Made_Stuff: ADD_COMMENT( ""@en )
+
+http://cidoc#P21F.had_as_general_purpose: DELETE_COMMENT( "E.g. making of a dress for wedding."@en )
+
+http://cidoc#E5.Event: ADD_COMMENT( ""@en )
+
+http://cidoc#E70.Stuff: DELETE_COMMENT( "An identifiable, discrete, persistent item which constitutes a unit for 
+
+     documentation, be it an intellectual product or a physical thing. Such items
+
+     are characterized by a relative stability, i.e. either a solid physical form, an electronic
+
+     encoding, a reproducible pattern, a logical concept or structure. It introduces the concept 
+
+     of being used.
+
+     Excluded are liquids flowing, gases moving around etc. A packaged liquid however fits 
+
+     this entity."@en )
+
+http://cidoc#E10.Transfer_of_Custody: ADD_COMMENT( ""@en )
+
+http://cidoc#E13.Attribute_Assignment: DELETE_COMMENT( "This entity comprises the actions of making assertions
+
+     about properties of an object. It serves the documentation of how
+
+     the respective assessment came about, and whose opinion it was.
+
+     All the attributes or properties assigned in such an action can
+
+     also be seen as directly attached to the respective object,
+
+     possibly as a collection of contradictory values. All cases of
+
+     direct links from objects to values which are, in this model,
+
+     also referred to indirectly through an action, are characterized
+
+     as "short cuts" of this action. This redundant modeling of two
+
+     alternative views is preferred because many implementations may
+
+     have good reasons to model either the action or the short cut,
+
+     and the relation between both alternatives can be captured by
+
+     simple rules.
+
+
+
+     In addition, the entity describes the actions of people making
+
+     propositions and statements during certain museum procedures,
+
+     e.g. the person and date when a condition statement was made, an
+
+     identifier was assigned, the museum object was measured, etc..
+
+     Which kinds of such assignments and statements need to be
+
+     documented explicitly in schema structures rather than free text,
+
+     depends on a museum=B4s practice. In the latter case shortcuts may
+
+     be used which refer directly to the museum object."@en )
+
+http://cidoc#E8.Acquisition_Event: ADD_COMMENT( ""@en )
+
+http://cidoc#E21.Person: ADD_COMMENT( ""@en )
+
+http://cidoc#E36.Visual_Item: ADD_COMMENT( ""@en )
+
+http://cidoc#E67.Birth: ADD_COMMENT( ""@en )
+
+http://cidoc#E33.Linguistic_Object: ADD_COMMENT( ""@en )
+
+http://cidoc#E3.Condition_State: DELETE_COMMENT( "The state of an object characterized by a certain
+
+     condition and a time-span, e.g. "In ruins from 1695 until 1952",
+
+     where the qualifier "in ruins" is represented as the condition
+
+     state type."@en )
+
+
+http://cidoc#E50.Date: ADD_COMMENT( ""@en )
+
+http://cidoc#E34.Inscription: DELETE_COMMENT( "This entity comprises texts attached to a physical
+
+     object. The attributes of the entity could be extended to include
+
+     alphabet used, rather than documenting these features in the note.
+
+     NB The entity does not describe idiosyncratic characteristics of
+
+     individual physical embodiments of an inscription but the
+
+     underlying prototype, e.g. Duerer=B4s signature."@en )
+
+http://cidoc#E26.Physical_Feature: DELETE_COMMENT( "This class was introduced in order to avoid the
+
+     counter-intuitive sense of referring to holes and similar features
+
+     of objects as physical objects. Features are logically or
+
+     physically attached to a particular physical object, and they
+
+     share many of the attributes of physical objects - they can be
+
+     measured and dated, and we can sometimes say who was responsible
+
+     for them. However, you can't pick up a hole and put it in your
+
+     pocket - Yellow Submarine not withstanding. Physical feature
+
+     groups together all features of physical objects. Cf. Man-made
+
+     features for the results of human intervention."@en )
+
+http://cidoc#E10.Transfer_of_Custody: DELETE_COMMENT( "This entity describes the transfer of physical custody
+
+     from one legal person to another. Either one of the actors may be
+
+     omitted, unknown or not existing. The entity may describe the
+
+     beginning, the end or the transfer of custody, field collection
+
+     or declared loss of an object, depending on the circumstances.
+
+     It takes a neutral position with respect to the actors involved.
+
+
+
+     The distinction between legal and physical custody can be
+
+     modelled as types.
+
+
+
+     Some events can simultaneously be considered as acquisition,
+
+     transfer of custody and move. For example, purchase of a
+
+     Polynesian feather hat at a market. In other cases, separate
+
+     events are involved,
+
+     e.g. purchase by telephone of an object on auction, physical
+
+     transportation, and reception by the new owner."@en )
+
+http://cidoc#P9F.consists_of: DELETE_COMMENT( "Aggregation of subperiods, the total of which
+
+     completely cover the places and times there things really
+
+     happened, used if time spans are different for different
+
+     places .better name "composed of"?."@en )
+
+http://cidoc#E67.Birth: DELETE_COMMENT( "The birth of a human being."@en )
+
+http://cidoc#P7B.witnessed: DELETE_COMMENT( "Denotes eventually a wider region than the real spot
+
+     things happened on.May be took place at would be a better name
+
+     for this link."@en )
+
+http://cidoc#E17.Type_Assignment: ADD_COMMENT( ""@en )
+
+http://cidoc#E32.Authority_Document: ADD_COMMENT( ""@en )
+
+http://cidoc#E36.Visual_Item: DELETE_COMMENT( "Visual Items refers to the intellectual or conceptual
+
+     aspect of recognizable marks and images. When we identify a trade
+
+     mark, say the ICOM logo, we are generally prepared to say that
+
+     the same logo is used on any number of publications. The size,
+
+     orientation and colour may change, but something uniquely
+
+     identifiable remains. The same can be said of images which are
+
+     reproduced many times. What these examples highlight is that
+
+     visual items are independent of their physical support. The visual
+
+     items class provides a means of identifying and linking together
+
+     objects which carry the same visual symbols, marks, images
+
+     or whatever."@en )
+
+http://cidoc#E5.Event: DELETE_COMMENT( "A change of state in cultural, social, physical
+
+     systems, regardless of scale, brought about by a series or group
+
+     of coherent physical, cultural, technological or legal phenomena.
+
+
+
+     Examples : World War II, Battle of Stalingrad, Earthquake in
+
+     Lisbon, birth of Cleopatra, my birthday celebration 28-6-1995,
+
+     the Yal ta Conference, "a tile fell from my roof", the CIDOC
+
+     Conference 2005.
+
+
+
+     The distinction between and event and a period is partly a
+
+     question of scale.Viewed at a broad scale, an event is an
+
+     "instantaneous" change of state. At a fine scale, the event
+
+     can be analysed into its component phenomena within a space and
+
+     time frame,i.e., a period. The reverse is not necessarily
+
+     the case, not all periods give rise to a noteworthy change of
+
+     state."@en )
+
+http://cidoc#P20B.was_purpose_of: DELETE_COMMENT( "E.g. making of a gift for the wedding of king
+
+     George"@en )
+
+http://cidoc#P40B.was_observed: DELETE_COMMENT( "This link has to be specialized further in subclasses.
+
+     Examples: hight, length, diameter of base,
+
+     major hight etc."@en )
+
+http://cidoc#E58.Measurement_Unit: DELETE_COMMENT( "This entity provides the authority list for all types
+
+     of measurement units: feet, inches, centimeters, litres, lumens,
+
+     etc."@en )
+
+http://cidoc#E46.Section_Definition: ADD_COMMENT( ""@en )
+
+http://cidoc#E21.Person: DELETE_COMMENT( "A real person, who lives or is assumed to have lived.
+
+
+
+     Examples : John Smith, Tut-Ankh-Amun.
+
+
+
+     Legendary figures, such as Ulysses and King Arthur, who may have
+
+     existed, fall into this class if the documentation refers to them
+
+     as historical figures. In cases where doubt exists as to whether
+
+     several persons are in fact identical, multiple instances can be
+
+     created and linked to indicate their relationship."@en )
+
+http://cidoc#E2.Temporal_Entity: DELETE_COMMENT( "This is an abstract entity and has no examples. It
+
+     groups together things such as events, states and other phenomena
+
+     which are limited in time. It is specialized into Period,
+
+     which holds on some geographic area, and Condition State,
+
+     which holds for, on, or over a certain object."@en )
+
+http://cidoc#E12.Production: DELETE_SUPERCLASS_FROM_CLASS( http://cidoc#E11.Modification )
+
+http://cidoc#E40.Legal_Body: ADD_COMMENT( ""@en )
+
+http://cidoc#E44.Place_Appellation: DELETE_COMMENT( "A place appellation is any sort of identifier used to
+
+     refer to a place. Place appellations may vary over time, and the
+
+     same appellation may be used to refer to several places, either
+
+     because of cultural shifts, or because things move around.
+
+     These unstable aspects of place appellations are dealt with in
+
+     the more general Appellation class. Place appellations can be
+
+     extremely varied in form, postal addresses and spatial coordinates
+
+     and parts of buildings can all be considered as place appellations.
+
+
+
+     Examples: Vienna, Wien, Aquae Sulis Minerva, Bath, Cambridge,
+
+               The Other Place. The City."@en )
+
+http://cidoc#E58.Measurement_Unit: ADD_COMMENT( ""@en )
+
+Composite changes [128]:
+
+http://cidoc#P119F.meets_in_time: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P64F.depicts_concept: DELETE_PROPERTY( {http://Comments, "This link replaces the usual subject. If the links
+
+       above are used, it is recommended to conclude on the subject
+
+       from the type of the referred object, if the subject  is not
+
+       different from that. This avoids redundancy and inconsistencies.
+
+       If the iconography depicts a non-specifically identified image,
+
+       e.g. a child, a house, a landscape, a symbol, a motive, the link
+
+       depicts concept should be used, pointing
+
+       to a Type."@en} {http://Domain, http://cidoc#E24.Physical_Man-Made_Stuff} {http://Range, http://cidoc#E55.Type}  )
+
+http://cidoc#E78.Collection: ADD_CLASS( {http://Superclasses, http://cidoc#E24.Physical_Man-Made_Stuff} {http://Comments, ""@en}  )
+
+http://cidoc#P60F.is_member_of: DELETE_PROPERTY( {http://Domain, http://cidoc#E21.Person} {http://Range, http://cidoc#E40.Legal_Body}  )
+
+http://cidoc#E72.Legal_Object: PULL_DOWN_CLASS( {http://cidoc#E1.CRM_Entity} {http://cidoc#E70.Stuff}  )
+
+http://cidoc#P85B.forms_part_of: DELETE_PROPERTY( {http://Domain, http://cidoc#E52.Time-Span} {http://Range, http://cidoc#E52.Time-Span}  )
+
+http://cidoc#P112B.was_diminished_by: ADD_PROPERTY( {http://Superproperties, http://cidoc#P31B.was_modified_by} {http://Domain, http://cidoc#E24.Physical_Man-Made_Stuff} {http://Range, http://cidoc#E80.Part_Removal}  )
+
+http://cidoc#P116F.starts: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P116B.started-by: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P115F.finishes: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P129B.is_subject_of: ADD_PROPERTY( {http://Superproperties, http://cidoc#P67B.is_referred_to_by} {http://Domain, http://cidoc#E1.CRM_Entity} {http://Range, http://cidoc#E73.Information_Object}  )
+
+http://cidoc#P84B.was_maximum_duration_of: ADD_PROPERTY( {http://Domain, http://cidoc#E54.Dimension} {http://Range, http://cidoc#E52.Time-Span}  )
+
+http://cidoc#P66F.refers_to_concept: DELETE_PROPERTY( {http://Domain, http://cidoc#E28.Conceptual_Object} {http://Range, http://cidoc#E55.Type}  )
+
+http://cidoc#P81F.ongoing_throughout: CHANGE_TO_DATATYPE_PROPERTY( http://cidoc#E61.Time_Primitive, http://www.w3.org/2000/01/rdf-schema#Literal )
+
+http://cidoc#P115B.finished-by: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+[http://cidoc#P34B.was_assessed_by, http://cidoc#P36B.registered_by, http://cidoc#P13B.was_destroyed_by, http://cidoc#P39B.was_measured, http://cidoc#P24B.changed_ownership_by, http://cidoc#P94B.was_created_by]: UNGROUP_PROPERTIES( http://cidoc#P12B.was_present_at )
+
+http://cidoc#P24F.transferred_title_of: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P17B.motivated: GENERALIZE_DOMAIN( http://cidoc#E28.Conceptual_Object, http://cidoc#E1.CRM_Entity )
+
+http://cidoc#P120B.after: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+[http://cidoc#P11B.participated_in, http://cidoc#P93B.was_taken_out_of_existence_by, http://cidoc#P92B.was_brought_into_existence_by, http://cidoc#P33B.was_used_by]: GROUP_PROPERTIES( http://cidoc#P12B.was_present_at )
+
+http://cidoc#P136B.supported_type_creation: ADD_PROPERTY( {http://Superproperties, http://cidoc#P15B.influenced} {http://Domain, http://cidoc#E1.CRM_Entity} {http://Range, http://cidoc#E83.Type_Creation}  )
+
+http://cidoc#P49B.is_former_or_current_keeper_of: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P127B.has_narrower_term: ADD_PROPERTY( {http://Domain, http://cidoc#E55.Type} {http://Range, http://cidoc#E55.Type}  )
+
+http://cidoc#P129F.is_about: ADD_PROPERTY( {http://Superproperties, http://cidoc#P67F.refers_to} {http://Domain, http://cidoc#E73.Information_Object} {http://Range, http://cidoc#E1.CRM_Entity}  )
+
+http://cidoc#P51F.has_former_or_current_owner: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P113F.removed: ADD_PROPERTY( {http://Domain, http://cidoc#E80.Part_Removal} {http://Range, http://cidoc#E18.Physical_Stuff}  )
+
+http://cidoc#P137F.is_exemplified_by: ADD_PROPERTY( {http://Domain, http://cidoc#E55.Type} {http://Range, http://cidoc#E1.CRM_Entity}  )
+
+http://cidoc#P113B.was_removed_by: ADD_PROPERTY( {http://Domain, http://cidoc#E18.Physical_Stuff} {http://Range, http://cidoc#E80.Part_Removal}  )
+
+http://cidoc#P24B.changed_ownership_by: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#E76.Gender: DELETE_CLASS( {http://Superclasses, http://cidoc#E55.Type} {http://Comments, ""@en}  )
+
+http://cidoc#P17F.was_motivated_by: GENERALIZE_RANGE( http://cidoc#E28.Conceptual_Object, http://cidoc#E1.CRM_Entity )
+
+http://cidoc#P110F.added_to: ADD_PROPERTY( {http://Superproperties, http://cidoc#P31F.has_modified} {http://Domain, http://cidoc#E79.Part_Addition} {http://Range, http://cidoc#E24.Physical_Man-Made_Stuff}  )
+
+http://cidoc#P126B.was_employed_by: ADD_PROPERTY( {http://Domain, http://cidoc#E57.Material} {http://Range, http://cidoc#E11.Modification_Event}  )
+
+http://cidoc#P83B.was_minimum_duration_of: ADD_PROPERTY( {http://Domain, http://cidoc#E54.Dimension} {http://Range, http://cidoc#E52.Time-Span}  )
+
+http://cidoc#P52B.is_current_owner_of: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P51B.is_former_or_current_owner_of: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P109F.is_curated_by: ADD_PROPERTY( {http://Domain, http://cidoc#E78.Collection} {http://Range, http://cidoc#E39.Actor}  )
+
+http://cidoc#P130F.shows_features_of: ADD_PROPERTY( {http://Subproperties, http://cidoc#P73F.has_translation} {http://Domain, http://cidoc#E70.Stuff} {http://Range, http://cidoc#E70.Stuff}  )
+
+http://cidoc#P19F.was_intended_use_of: GENERALIZE_RANGE( http://cidoc#E22.Man-Made_Object, http://cidoc#E71.Man-Made_Stuff )
+
+http://cidoc#P87B.identifies: CHANGE_RANGE( http://cidoc#E52.Time-Span, http://cidoc#E53.Place )
+
+http://cidoc#E51.Contact_Point: PULL_DOWN_CLASS( {http://cidoc#E1.CRM_Entity} {http://cidoc#E77.Persistent_Item}  )
+
+http://cidoc#P64B.is_depicted_by: DELETE_PROPERTY( {http://Comments, "This link replaces the usual subject. If the links
+
+       above are used, it is recommended to conclude on the subject
+
+       from the type of the referred object, if the subject  is not
+
+       different from that. This avoids redundancy and inconsistencies.
+
+       If the iconography depicts a non-specifically identified image,
+
+       e.g. a child, a house, a landscape, a symbol, a motive, the link
+
+       depicts concept should be used, pointing
+
+       to a Type."@en} {http://Domain, http://cidoc#E55.Type} {http://Range, http://cidoc#E24.Physical_Man-Made_Stuff}  )
+
+http://cidoc#P138F.visualizes: ADD_PROPERTY( {http://Superproperties, http://cidoc#P67F.refers_to} {http://Domain, http://cidoc#E36.Visual_Item} {http://Range, http://cidoc#E1.CRM_Entity}  )
+
+http://cidoc#P62F.depicts: GENERALIZE_RANGE( http://cidoc#E18.Physical_Stuff, http://cidoc#E1.CRM_Entity )
+
+http://cidoc#P112F.removed_from: ADD_PROPERTY( {http://Superproperties, http://cidoc#P31F.has_modified} {http://Domain, http://cidoc#E80.Part_Removal} {http://Range, http://cidoc#E24.Physical_Man-Made_Stuff}  )
+
+http://cidoc#P124B.was_transformed_by: ADD_PROPERTY( {http://Superproperties, http://cidoc#P93B.was_taken_out_of_existence_by} {http://Domain, http://cidoc#E77.Persistent_Item} {http://Range, http://cidoc#E81.Transformation}  )
+
+http://cidoc#P134F.continued: ADD_PROPERTY( {http://Superproperties, http://cidoc#P15F.was_influenced_by} {http://Domain, http://cidoc#E7.Activity} {http://Range, http://cidoc#E7.Activity}  )
+
+http://cidoc#P53F.has_former_or_current_location: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P134B.was_continued_by: ADD_PROPERTY( {http://Superproperties, http://cidoc#P15B.influenced} {http://Domain, http://cidoc#E7.Activity} {http://Range, http://cidoc#E7.Activity}  )
+
+http://cidoc#P126F.employed: ADD_PROPERTY( {http://Domain, http://cidoc#E11.Modification_Event} {http://Range, http://cidoc#E57.Material}  )
+
+http://cidoc#P136F.was_based_on: ADD_PROPERTY( {http://Superproperties, http://cidoc#P15F.was_influenced_by} {http://Domain, http://cidoc#E83.Type_Creation} {http://Range, http://cidoc#E1.CRM_Entity}  )
+
+http://cidoc#P39B.was_measured_by: GENERALIZE_DOMAIN( http://cidoc#E18.Physical_Stuff, http://cidoc#E70.Stuff )
+
+http://cidoc#P132F.overlaps_with: ADD_PROPERTY( {http://Domain, http://cidoc#E4.Period} {http://Range, http://cidoc#E4.Period}  )
+
+http://cidoc#P18F.motivated_the_creation_of: DELETE_PROPERTY( {http://Domain, http://cidoc#E7.Activity} {http://Range, http://cidoc#E28.Conceptual_Object}  )
+
+http://cidoc#P117F.during: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P82F.at_some_time_within: CHANGE_TO_DATATYPE_PROPERTY( http://cidoc#E61.Time_Primitive, http://www.w3.org/2000/01/rdf-schema#Literal )
+
+[http://cidoc#P19F.was_intended_use_of, http://cidoc#P33F.used_specific_technique, http://cidoc#P17F.was_motivated_by, http://cidoc#P20F.had_specific_purpose]: GROUP_PROPERTIES( http://cidoc#P15F.was_influenced_by )
+
+http://cidoc#P63B.is_depicted_by: DELETE_PROPERTY( {http://Comments, "This link serves particularly for cross-references
+
+       to archives and history, as above.
+
+       If the iconography depicts a real Event, e.g. the battle of
+
+       Bankerhill, the link depicts Event should be used, pointing to
+
+       an instance of the class Event. Depicted events of which the
+
+       time or place are out of interest, e.g. mythological &
+
+       religious events, should by regarded as
+
+       Event Types."@en} {http://Domain, http://cidoc#E5.Event} {http://Range, http://cidoc#E24.Physical_Man-Made_Stuff}  )
+
+http://cidoc#P53B.is_former_or_current_location_of: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+[http://cidoc#P93F.took_out_of_existence, http://cidoc#P92F.brought_into_existence, http://cidoc#P33F.used_specific_technique, http://cidoc#P11F.had_participant]: GROUP_PROPERTIES( http://cidoc#P12F.occurred_in_the_presence_of )
+
+http://cidoc#P62B.is_depicted_by: GENERALIZE_DOMAIN( http://cidoc#E18.Physical_Stuff, http://cidoc#E1.CRM_Entity )
+
+http://cidoc#P120F.before: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P18B.was_created_for: DELETE_PROPERTY( {http://Domain, http://cidoc#E28.Conceptual_Object} {http://Range, http://cidoc#E7.Activity}  )
+
+[http://cidoc#P17B.motivated, http://cidoc#P16B.was_used_for, http://cidoc#P19B.was_made_for, http://cidoc#P33B.was_used_by, http://cidoc#P20B.was_purpose_of]: GROUP_PROPERTIES( http://cidoc#P15B.influenced )
+
+http://cidoc#P125F.used_general_object: ADD_PROPERTY( {http://Domain, http://cidoc#E7.Activity} {http://Range, http://cidoc#E55.Type}  )
+
+http://cidoc#P15B.influenced: GENERALIZE_DOMAIN( http://cidoc#E28.Conceptual_Object, http://cidoc#E1.CRM_Entity )
+
+http://cidoc#P128B.is_materialized_by: ADD_PROPERTY( {http://Domain, http://cidoc#E73.Information_Object} {http://Range, http://cidoc#E23.Information_Carrier}  )
+
+http://cidoc#P111B.was_added_by: ADD_PROPERTY( {http://Domain, http://cidoc#E18.Physical_Stuff} {http://Range, http://cidoc#E79.Part_Addition}  )
+
+http://cidoc#P119B.met-by_in_time: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#E83.Type_Creation: ADD_CLASS( {http://Superclasses, http://cidoc#E65.Creation_Event} {http://Comments, ""@en}  )
+
+http://cidoc#P133F.is_separated_from: ADD_PROPERTY( {http://Domain, http://cidoc#E4.Period} {http://Range, http://cidoc#E4.Period}  )
+
+http://cidoc#E80.Part_Removal: ADD_CLASS( {http://Superclasses, http://cidoc#E11.Modification_Event} {http://Comments, ""@en}  )
+
+http://cidoc#P43F.has_dimension: GENERALIZE_DOMAIN( http://cidoc#E18.Physical_Stuff, http://cidoc#E70.Stuff )
+
+http://cidoc#E81.Transformation: ADD_CLASS( {http://Superclasses, http://cidoc#E64.End_of_Existence, http://cidoc#E63.Beginning_of_Existence} {http://Comments, ""@en}  )
+
+http://cidoc#P114F.equal_in_time: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P49F.has_former_or_current_keeper: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P50B.is_current_keeper_of: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#P131B.identifies: ADD_PROPERTY( {http://Superproperties, http://cidoc#P1B.identifies} {http://Domain, http://cidoc#E82.Actor_Appellation} {http://Range, http://cidoc#E39.Actor}  )
+
+http://cidoc#P130B.features_are_also_found_on: ADD_PROPERTY( {http://Subproperties, http://cidoc#P73B.is_translation_of} {http://Domain, http://cidoc#E70.Stuff} {http://Range, http://cidoc#E70.Stuff}  )
+
+[http://cidoc#P100B.died_in, http://cidoc#P98B.was_born]: UNGROUP_PROPERTIES( http://cidoc#P11B.participated_in )
+
+http://cidoc#P111F.added: ADD_PROPERTY( {http://Domain, http://cidoc#E79.Part_Addition} {http://Range, http://cidoc#E18.Physical_Stuff}  )
+
+http://cidoc#P127F.has_broader_term: ADD_PROPERTY( {http://Domain, http://cidoc#E55.Type} {http://Range, http://cidoc#E55.Type}  )
+
+http://cidoc#P63F.depicts_event: DELETE_PROPERTY( {http://Comments, "This link serves particularly for cross-references
+
+       to archives and history, as above.
+
+       If the iconography depicts a real Event, e.g. the battle of
+
+       Bankerhill, the link depicts Event should be used, pointing to
+
+       an instance of the class Event. Depicted events of which the
+
+       time or place are out of interest, e.g. mythological &
+
+       religious events, should by regarded as
+
+       Event Types."@en} {http://Domain, http://cidoc#E24.Physical_Man-Made_Stuff} {http://Range, http://cidoc#E5.Event}  )
+
+http://cidoc#P39F.measured: GENERALIZE_RANGE( http://cidoc#E18.Physical_Stuff, http://cidoc#E70.Stuff )
+
+http://cidoc#P124F.transformed: ADD_PROPERTY( {http://Superproperties, http://cidoc#P93F.took_out_of_existence} {http://Domain, http://cidoc#E81.Transformation} {http://Range, http://cidoc#E77.Persistent_Item}  )
+
+http://cidoc#P118B.overlapped-by_in_time: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P121F.overlaps_with: ADD_PROPERTY( {http://Domain, http://cidoc#E53.Place} {http://Range, http://cidoc#E53.Place}  )
+
+http://cidoc#P123B.was_result_of: ADD_PROPERTY( {http://Superproperties, http://cidoc#P92B.was_brought_into_existence_by} {http://Domain, http://cidoc#E77.Persistent_Item} {http://Range, http://cidoc#E81.Transformation}  )
+
+http://cidoc#P117B.includes: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P12B.was_present_at: GENERALIZE_DOMAIN( http://cidoc#E70.Stuff, http://cidoc#E77.Persistent_Item )
+
+http://cidoc#P109B.curates: ADD_PROPERTY( {http://Domain, http://cidoc#E39.Actor} {http://Range, http://cidoc#E78.Collection}  )
+
+http://cidoc#P110B.was_augmented_by: ADD_PROPERTY( {http://Superproperties, http://cidoc#P31B.was_modified_by} {http://Domain, http://cidoc#E24.Physical_Man-Made_Stuff} {http://Range, http://cidoc#E79.Part_Addition}  )
+
+http://cidoc#P52F.has_current_owner: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+http://cidoc#E79.Part_Addition: ADD_CLASS( {http://Superclasses, http://cidoc#E11.Modification_Event} {http://Comments, ""@en}  )
+
+http://cidoc#P12F.occurred_in_the_presence_of: GENERALIZE_RANGE( http://cidoc#E70.Stuff, http://cidoc#E77.Persistent_Item )
+
+http://cidoc#P118F.overlaps_in_time: ADD_PROPERTY( {http://Domain, http://cidoc#E2.Temporal_Entity} {http://Range, http://cidoc#E2.Temporal_Entity}  )
+
+http://cidoc#P135F.created_type: ADD_PROPERTY( {http://Superproperties, http://cidoc#P94F.has_created} {http://Domain, http://cidoc#E83.Type_Creation} {http://Range, http://cidoc#E55.Type}  )
+
+http://cidoc#P135B.was_created_by: ADD_PROPERTY( {http://Superproperties, http://cidoc#P94B.was_created_by} {http://Domain, http://cidoc#E55.Type} {http://Range, http://cidoc#E83.Type_Creation}  )
+
+http://cidoc#E82.Actor_Appellation: ADD_CLASS( {http://Superclasses, http://cidoc#E41.Appellation} {http://Comments, ""@en}  )
+
+http://cidoc#P137B.exemplifies: ADD_PROPERTY( {http://Domain, http://cidoc#E1.CRM_Entity} {http://Range, http://cidoc#E55.Type}  )
+
+http://cidoc#P16F.used_specific_object: GENERALIZE_RANGE( http://cidoc#E19.Physical_Object, http://cidoc#E70.Stuff )
+
+http://cidoc#P6B.contains: DELETE_PROPERTY( {http://Domain, http://cidoc#E3.Condition_State} {http://Range, http://cidoc#E3.Condition_State}  )
+
+http://cidoc#P16B.was_used_for: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E70.Stuff )
+
+http://cidoc#P67F.refers_to: SPECIALIZE_DOMAIN( http://cidoc#E28.Conceptual_Object, http://cidoc#E73.Information_Object )
+
+http://cidoc#P122F.borders_with: ADD_PROPERTY( {http://Domain, http://cidoc#E53.Place} {http://Range, http://cidoc#E53.Place}  )
+
+http://cidoc#P139F.also_represented_by: ADD_PROPERTY( {http://Domain, http://cidoc#E41.Appellation} {http://Range, http://cidoc#E41.Appellation}  )
+
+[http://cidoc#P24F.transferred_title_of, http://cidoc#P94F.has_created, http://cidoc#P36F.registered, http://cidoc#P13F.destroyed, http://cidoc#P34F.concerned, http://cidoc#P39F.measured]: UNGROUP_PROPERTIES( http://cidoc#P12F.ocurred_in_the_presence_of )
+
+http://cidoc#P85F.consists_of: DELETE_PROPERTY( {http://Domain, http://cidoc#E52.Time-Span} {http://Range, http://cidoc#E52.Time-Span}  )
+
+http://cidoc#E61.Time_Primitive: DELETE_CLASS( {http://Superclasses, http://cidoc#E59.Primitive_Value} {http://Comments, "This entity is a primitive value that should implement
+
+     appropriate validation and interval logic for date ranges and
+
+     precision relevant to cultural documentation. It is not further
+
+     analysed in this model."@en}  )
+
+http://cidoc#P131F.is_identified_by: ADD_PROPERTY( {http://Superproperties, http://cidoc#P1F.is_identified_by} {http://Domain, http://cidoc#E39.Actor} {http://Range, http://cidoc#E82.Actor_Appellation}  )
+
+http://cidoc#P66B.is_refered_to_by: DELETE_PROPERTY( {http://Domain, http://cidoc#E55.Type} {http://Range, http://cidoc#E28.Conceptual_Object}  )
+
+http://cidoc#P43B.is_dimension_of: GENERALIZE_RANGE( http://cidoc#E18.Physical_Stuff, http://cidoc#E70.Stuff )
+
+http://cidoc#P61B.is_gender_of: DELETE_PROPERTY( {http://Domain, http://cidoc#E76.Gender} {http://Range, http://cidoc#E21.Person}  )
+
+[http://cidoc#P98F.brought_into_life, http://cidoc#P100F.was_death_of]: UNGROUP_PROPERTIES( http://cidoc#P11F.had_participants )
+
+http://cidoc#P67B.is_referred_to_by: SPECIALIZE_RANGE( http://cidoc#E28.Conceptual_Object, http://cidoc#E73.Information_Object )
+
+http://cidoc#P19B.was_made_for: GENERALIZE_DOMAIN( http://cidoc#E22.Man-Made_Object, http://cidoc#E71.Man-Made_Stuff )
+
+http://cidoc#P77B.belongs_to: DELETE_PROPERTY( {http://Domain, http://cidoc#E40.Legal_Body} {http://Range, http://cidoc#E40.Legal_Body}  )
+
+http://cidoc#P123F.resulted_in: ADD_PROPERTY( {http://Superproperties, http://cidoc#P92F.brought_into_existence} {http://Domain, http://cidoc#E81.Transformation} {http://Range, http://cidoc#E77.Persistent_Item}  )
+
+http://cidoc#P15F.was_influenced_by: GENERALIZE_RANGE( http://cidoc#E28.Conceptual_Object, http://cidoc#E1.CRM_Entity )
+
+http://cidoc#P138B.has_visualization: ADD_PROPERTY( {http://Superproperties, http://cidoc#P67B.is_referred_to_by} {http://Domain, http://cidoc#E1.CRM_Entity} {http://Range, http://cidoc#E36.Visual_Item}  )
+
+http://cidoc#P125B.was_used_for: ADD_PROPERTY( {http://Domain, http://cidoc#E55.Type} {http://Range, http://cidoc#E7.Activity}  )
+
+http://cidoc#P61F.has_gender: DELETE_PROPERTY( {http://Domain, http://cidoc#E21.Person} {http://Range, http://cidoc#E76.Gender}  )
+
+http://cidoc#P77F.consists_of: DELETE_PROPERTY( {http://Domain, http://cidoc#E40.Legal_Body} {http://Range, http://cidoc#E40.Legal_Body}  )
+
+http://cidoc#E59.Primitive_Value: DELETE_CLASS( {http://Subclasses} {http://Comments, "This entity is a container for primitive values used
+
+     as documentation elements which are not further analysed. As such
+
+     they are not considered as elements within our universe of
+
+     discourse. No specific implementation
+
+     recommendations are made."@en}  )
+
+http://cidoc#P6F.falls_within: DELETE_PROPERTY( {http://Domain, http://cidoc#E3.Condition_State} {http://Range, http://cidoc#E3.Condition_State}  )
+
+http://cidoc#P128F.is_carried_of: ADD_PROPERTY( {http://Domain, http://cidoc#E23.Information_Carrier} {http://Range, http://cidoc#E73.Information_Object}  )
+
+http://cidoc#P60B.has_members: DELETE_PROPERTY( {http://Domain, http://cidoc#E40.Legal_Body} {http://Range, http://cidoc#E21.Person}  )
+
+http://cidoc#P50F.has_current_keeper: GENERALIZE_DOMAIN( http://cidoc#E19.Physical_Object, http://cidoc#E18.Physical_Stuff )
+
+Heuristic changes [39]:
+
+http://cidoc#P17F.was_motivation_for: RENAME_PROPERTY( http://cidoc#P17F.was_motivated_by)
+
+http://cidoc#P90F.value: RENAME_PROPERTY( http://cidoc#P90F.has_value)
+
+http://cidoc#P11F.had_participants: RENAME_PROPERTY( http://cidoc#P11F.had_participant)
+
+http://cidoc#P29F.custody_received_by: RENAME_PROPERTY( http://cidoc#P29F.custody_recieved_by)
+
+http://cidoc#P15F.took_into_account: RENAME_PROPERTY( http://cidoc#P15F.was_influenced_by)
+
+http://cidoc#P48F.preferred_identifier_is: RENAME_PROPERTY( http://cidoc#P48F.has_preferred_identifier)
+
+http://cidoc#P21F.had_as_general_purpose: RENAME_PROPERTY( http://cidoc#P21F.had_general_purpose)
+
+http://cidoc#P36B.registered_by: RENAME_PROPERTY( http://cidoc#P36B.was_registered_by)
+
+http://cidoc#P26B.occupied: RENAME_PROPERTY( http://cidoc#P26B.was_destination_of)
+
+http://cidoc#P71B.is_part_of: RENAME_PROPERTY( http://cidoc#P71B.is_listed_in)
+
+http://cidoc#E65.Conceptual_Creation: RENAME_CLASS( http://cidoc#E65.Creation_Event)
+
+http://cidoc#P76F.has_contact_points: RENAME_PROPERTY( http://cidoc#P76F.has_contact_point)
+
+http://cidoc#P27B.vacated: RENAME_PROPERTY( http://cidoc#P27B.was_origin_of)
+
+http://cidoc#P37B.is_assigned_by: RENAME_PROPERTY( http://cidoc#P37B.was_assigned_by)
+
+http://cidoc#P62F.depicts_object: RENAME_PROPERTY( http://cidoc#P62F.depicts)
+
+http://cidoc#E66.Formation: RENAME_CLASS( http://cidoc#E66.Formation_Event)
+
+http://cidoc#P39B.was_measured: RENAME_PROPERTY( http://cidoc#P39B.was_measured_by)
+
+http://cidoc#P15B.was_taken_into_account_by: RENAME_PROPERTY( http://cidoc#P15B.influenced)
+
+http://cidoc#P29B.received_custody: RENAME_PROPERTY( http://cidoc#P29B.recieved_custody)
+
+http://cidoc#E12.Production: RENAME_CLASS( http://cidoc#E12.Production_Event)
+
+http://cidoc#P107F.had_member: RENAME_PROPERTY( http://cidoc#P107F.has_current_or_former_member)
+
+http://cidoc#E23.Iconographic_Object: RENAME_CLASS( http://cidoc#E23.Information_Carrier)
+
+http://cidoc#E77.Existence: RENAME_CLASS( http://cidoc#E77.Persistent_Item)
+
+http://cidoc#P105B.owns_rights_to: RENAME_PROPERTY( http://cidoc#P105B.has_right_on)
+
+http://cidoc#P38F.deassigns: RENAME_PROPERTY( http://cidoc#P38F.deassigned)
+
+http://cidoc#E8.Acquisition: RENAME_CLASS( http://cidoc#E8.Acquisition_Event)
+
+http://cidoc#P67F.referrs_to: RENAME_PROPERTY( http://cidoc#P67F.refers_to)
+
+http://cidoc#P48B.is_preffered_identifier_of: RENAME_PROPERTY( http://cidoc#P48B.is_preferred_identifier_of)
+
+http://cidoc#E16.Measurement: RENAME_CLASS( http://cidoc#E16.Measurement_Event)
+
+http://cidoc#P82F.at_most_within: RENAME_PROPERTY( http://cidoc#P82F.at_some_time_within)
+
+http://cidoc#P38B.is_deassigned_by: RENAME_PROPERTY( http://cidoc#P38B.was_deassigned_by)
+
+http://cidoc#P16F.used_object: RENAME_PROPERTY( http://cidoc#P16F.used_specific_object)
+
+http://cidoc#P107B.was_member_of: RENAME_PROPERTY( http://cidoc#P107B.is_current_or_former_member_of)
+
+http://cidoc#P71F.contains: RENAME_PROPERTY( http://cidoc#P71F.lists)
+
+http://cidoc#P12F.ocurred_in_the_presence_of: RENAME_PROPERTY( http://cidoc#P12F.occurred_in_the_presence_of)
+
+http://cidoc#P37F.assigns: RENAME_PROPERTY( http://cidoc#P37F.assigned)
+
+http://cidoc#E11.Modification: RENAME_CLASS( http://cidoc#E11.Modification_Event)
+
+http://cidoc#P69F.associated_with: RENAME_PROPERTY( http://cidoc#P69F.is_associated_with)
+
+http://cidoc#P81F.at_least_covering: RENAME_PROPERTY( http://cidoc#P81F.ongoing_throughout)
