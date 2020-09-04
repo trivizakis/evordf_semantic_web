@@ -7,9 +7,6 @@ youtube link demo:
 https://www.youtube.com/watch?v=qTuLBxbqBPs&list=PLS3kjgPnn9abaJ5ObgL6z8Zac2RHm3brl
 
 
-<hr>
-use hypes file with:
-https://github.com/trivizakis/easyConvNet
 
 <hr>
 
